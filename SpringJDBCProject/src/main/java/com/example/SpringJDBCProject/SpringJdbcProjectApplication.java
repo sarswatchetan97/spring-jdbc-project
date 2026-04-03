@@ -16,7 +16,7 @@ public class SpringJdbcProjectApplication {
 
         student.setMarks(90);
         student.setSubject("English");
-        student.setMarks(101);
+        student.setRollNo(101);
 
         StudentService service = context.getBean(StudentService.class);
         service.addStudent(student);
